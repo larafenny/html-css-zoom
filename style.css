@@ -71,7 +71,22 @@ footer{
     left: 0px;
     height: 100px;
     width: 100vw;
-    background-color: hsl(0deg 0% 13%)
-    ;
-
+    background-color: hsl(0deg 0% 13%);
+    display: flex;
 }
+
+.left-nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-nav i{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
