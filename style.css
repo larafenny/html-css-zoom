@@ -100,20 +100,37 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .left-nav i{
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-  }
+.li i{
+    padding-bottom: 5px;
+}
+
+.fas{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.fa-chevron-up{
+    align-self: center;
+    font-size: 15px;
+
+}
+
 
 /*** center-nav ***/
 .center-nav ul{
     display: flex;
-    
-
+    gap: 20px;
 }
 
+.central-nav li{
+    display: flex;
+}
+
+.central-nav a{
+
+}
 
 /*** right-nav ***/
 
@@ -125,4 +142,10 @@ footer{
   .right-nav a{
       color: hsl(2deg 76% 45%);
 
+  }
+
+  /********** GLOBALS **********/
+
+  .green{
+      color: hsl(107deg 68% 47%);
   }
