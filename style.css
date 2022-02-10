@@ -21,17 +21,19 @@ a{
 }
 
 main{
-    height: 100% - 100px;
-
+    height: 90%;
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    padding: 80px 30px 0 30px;
 }
 
 .wrapper {
-    padding: 50px 50px;
     display: flex;
-    align-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
     overflow:hidden;
+    
   }
 
 /************** ABSOLUTE GRID ************/
@@ -72,30 +74,33 @@ main{
 /************** USER of ZOOM ************/
 
 .user-container{
-
+    display: flex;
     position: relative;
-    width: calc(100% / 8);
-    height: calc(100% / 5);
+    width: 180px;
+    height: 130px;
     margin: 10px 15px;
-    
-    
-
+    overflow:hidden;
 }
 
 .user-container img{
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
+    min-width: 280px;
+    min-height: 150px;
+    object-fit: fit;
 }
 
 
 .container-user-info{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 0px;
     background-color: #888888a6;
     color: white;
-    padding: 5px;   
+    padding: 3px 10px;
+}
+
+.wrapper .fas{
+    font-size: 14px;
+    padding-bottom: 10px;
 }
 
 /************** FOOTER ************/
