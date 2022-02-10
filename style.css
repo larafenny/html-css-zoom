@@ -4,3 +4,23 @@
     clear: both;
 }
 
+body{
+    
+}
+
+/************** USER PICTURE ************/
+.user{
+    position: relative;
+    width: ;
+    height: ;
+}
+
+.container-user-info{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    background-color: #888888a6;
+    color: white;
+    padding: 5px;
+}
+
