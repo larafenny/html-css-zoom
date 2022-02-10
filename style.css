@@ -65,11 +65,13 @@ main{
 /************** FOOTER ************/
 
 footer{
+    color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
     left: 0px;
     height: 100px;
     width: 100vw;
-    background-color: red;
+    background-color: hsl(0deg 0% 13%)
+    ;
 
 }
