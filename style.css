@@ -32,9 +32,41 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     overflow:hidden;
-    
-
   }
+
+/************** ABSOLUTE GRID ************/
+
+.grid{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    font-size: 14px;
+}
+
+.speaker-view{
+    display: flex;
+    background-color: hsl(0deg 0% 29%);
+    margin: 0 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+    
+}
+
+.grid i{
+    display: flex;
+    font-size: 15px;
+    align-self: center;    
+}
+
+
+.icon-view{
+    background-color: hsl(0deg 0% 29%);
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+
 
 
 /************** USER of ZOOM ************/
@@ -147,6 +179,8 @@ footer{
       align-self: center;
 
   }
+
+
 
   /********** GLOBALS **********/
 
