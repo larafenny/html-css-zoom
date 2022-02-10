@@ -135,12 +135,16 @@ footer{
 /*** right-nav ***/
 
   .right-nav{
+      display: flex;
       height: 100%;
       background-color: hsl(0deg 0% 29%);
+      align-content: center;
+      padding: 0  20px;
       }
 
   .right-nav a{
       color: hsl(2deg 76% 45%);
+      align-self: center;
 
   }
 
