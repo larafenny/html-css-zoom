@@ -13,7 +13,11 @@ body{
     font-family: sans-serif;
     color: white;
     overflow:hidden;
-    
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 main{
@@ -64,20 +68,32 @@ main{
 
 /************** FOOTER ************/
 
+footer *{
+    list-style-type: none;
+}
+
 footer{
     color: white;
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 0px;
     height: 100px;
     width: 100vw;
     background-color: hsl(0deg 0% 13%);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*** left-nav ***/
+
+.left-nav{
+    padding-left: 20px;
 }
 
 .left-nav ul{
     display: flex;
-    flex-direction: column;
+    gap: 20px;
 }
 
 .left-nav a{
@@ -87,6 +103,26 @@ footer{
   }
 
   .left-nav i{
-    font-size: 1.5rem;
-    margin-bottom: 5px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+/*** center-nav ***/
+.center-nav ul{
+    display: flex;
+    
+
+}
+
+
+/*** right-nav ***/
+
+  .right-nav{
+      height: 100%;
+      background-color: hsl(0deg 0% 29%);
+      }
+
+  .right-nav a{
+      color: hsl(2deg 76% 45%);
+
   }
