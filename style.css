@@ -1,26 +1,75 @@
-*{
-    box-sizing: content-box;
-    display: table;
-    clear: both;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    overflow:hidden;
     
 }
 
-/************** USER PICTURE ************/
-.user{
-    position: relative;
-    width: ;
-    height: ;
+main{
+    height: 100% - 100px;
+
 }
+
+.wrapper {
+    padding: 50px 50px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow:hidden;
+    
+
+  }
+
+
+/************** USER of ZOOM ************/
+
+.user-container{
+
+    position: relative;
+    width: calc(100% / 8);
+    height: calc(100% / 5);
+    margin: 10px 15px;
+    
+    
+
+}
+
+.user-container img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
 
 .container-user-info{
     position: absolute;
-    bottom: 2px;
+    bottom: 10px;
     left: 0px;
     background-color: #888888a6;
     color: white;
-    padding: 5px;
+    padding: 5px;   
 }
 
+/************** FOOTER ************/
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100vw;
+    background-color: red;
+
+}
